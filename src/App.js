@@ -27,7 +27,7 @@ function App() {
   return (
     <Router>
       <div className="App wrapper">
-        <header>
+        <header> // better to create a separated components for Header and for menu
           <h1>TO DO APP REACT</h1>
           <nav>
             <Link to='/'>Home</Link>
