@@ -46,7 +46,7 @@ function App() {
         
         <main>
           <Routes>
-            <Route 
+            <Route  // and it will be better if you create separated child routs for create and edit.
               path="/todos" 
               element={
                 <TaskContainer 
